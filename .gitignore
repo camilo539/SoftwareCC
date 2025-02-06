@@ -1,0 +1,8 @@
+.vs/
+*.json
+*.suo
+CapaDatos/obj/Release/
+CapaEntidad/obj/Release/
+CapaNegocio/obj/Release/
+CapaPresentacion/obj/Release/
+CapaPresentacion/.vs/CursoSistemaVenta/v17/
