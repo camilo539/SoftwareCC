@@ -10,3 +10,6 @@
 /CapaPresentacion/.vs/
 *.cache
 
+/CapaNegocio/CapaNegocio.csproj
+/CapaEntidad/CapaEntidad.csproj
+/CapaDatos/CapaDatos.csproj
