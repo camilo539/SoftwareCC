@@ -40,6 +40,8 @@
             this.menutitulo = new System.Windows.Forms.MenuStrip();
             this.label1 = new System.Windows.Forms.Label();
             this.contenedor = new System.Windows.Forms.Panel();
+            this.label2 = new System.Windows.Forms.Label();
+            this.Iblusuario = new System.Windows.Forms.Label();
             this.menu.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -201,11 +203,37 @@
             this.contenedor.Size = new System.Drawing.Size(1459, 429);
             this.contenedor.TabIndex = 3;
             // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.BackColor = System.Drawing.Color.DarkSlateBlue;
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.ForeColor = System.Drawing.Color.White;
+            this.label2.Location = new System.Drawing.Point(1240, 43);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(64, 18);
+            this.label2.TabIndex = 4;
+            this.label2.Text = "Usuario:";
+            // 
+            // Iblusuario
+            // 
+            this.Iblusuario.AutoSize = true;
+            this.Iblusuario.BackColor = System.Drawing.Color.DarkSlateBlue;
+            this.Iblusuario.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Iblusuario.ForeColor = System.Drawing.Color.White;
+            this.Iblusuario.Location = new System.Drawing.Point(1323, 43);
+            this.Iblusuario.Name = "Iblusuario";
+            this.Iblusuario.Size = new System.Drawing.Size(71, 18);
+            this.Iblusuario.TabIndex = 5;
+            this.Iblusuario.Text = "Iblusuario";
+            // 
             // Inicio
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1459, 583);
+            this.Controls.Add(this.Iblusuario);
+            this.Controls.Add(this.label2);
             this.Controls.Add(this.contenedor);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.menu);
@@ -235,6 +263,8 @@
         private FontAwesome.Sharp.IconMenuItem menureportes;
         private FontAwesome.Sharp.IconMenuItem menuacercade;
         private System.Windows.Forms.Panel contenedor;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label Iblusuario;
     }
 }
 

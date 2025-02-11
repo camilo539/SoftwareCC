@@ -7,19 +7,26 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using CapaEntidad;
 
 namespace CapaPresentacion
 {
     public partial class Inicio : Form
     {
-        public Inicio()
+
+        private static Usuario UsuarioActual;
+
+        public Inicio(Usuario objusuario)
         {
+
+            UsuarioActual = objusuario;
+
             InitializeComponent();
         }
 
         private void Inicio_Load(object sender, EventArgs e)
         {
-
+            Iblusuario.Text = UsuarioActual.NombreCompleto;
         }
 
         private void menutitulo_ItemClicked(object sender, ToolStripItemClickedEventArgs e)
