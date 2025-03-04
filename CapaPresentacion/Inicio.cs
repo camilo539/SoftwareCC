@@ -10,6 +10,8 @@ using System.Windows.Forms;
 using CapaEntidad;
 using FontAwesome.Sharp;
 
+using CapaNegocio;
+
 namespace CapaPresentacion
 {
     public partial class Inicio : Form
@@ -29,6 +31,9 @@ namespace CapaPresentacion
 
         private void Inicio_Load(object sender, EventArgs e)
         {
+
+            List<Permiso> ListaPermisos = new CN_Permiso().Listar(UsuarioActual.IdUsuario);
+
             Iblusuario.Text = UsuarioActual.NombreCompleto;
         }
 
